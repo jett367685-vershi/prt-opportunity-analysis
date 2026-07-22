@@ -1,0 +1,37 @@
+# Confidential or potentially identifying data
+data/*
+!data/README.md
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+*.parquet
+
+# Generated analytical outputs may contain opportunity-level records
+outputs/generated/
+
+# Local configuration and credentials
+.env
+.env.*
+*.key
+*.pem
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Dissertation drafts and review files
+*.docx
+*.pdf
+~$*
